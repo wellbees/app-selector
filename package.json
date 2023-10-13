@@ -1,0 +1,44 @@
+{
+	"name": "@wellbees/app-selector",
+	"version": "1.0.0",
+	"description": "Popup that enables continuing from the application or browser",
+	"main": "dist/index.js",
+	"source": "src/index.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"dist"
+	],
+	"author": {
+		"name": "Wellbees Tech",
+		"url": "https://github.com/wellbees"
+	},
+	"license": "MIT",
+	"repository": "wellbees/app-selector",
+	"scripts": {
+		"start": "microbundle-crl watch --format modern,cjs"
+	},
+	"keywords": [
+		"ReactJS",
+		"React",
+		"App Selector",
+		"Deep Link",
+		"Mobile",
+		"Browser Selector",
+		"User Prompt",
+		"Enhanced Experience"
+	],
+	"dependencies": {
+		"prop-types": "^15.8.1"
+	},
+	"devDependencies": {
+		"microbundle-crl": "^0.13.11",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-scripts": "^3.4.4"
+	},
+	"peerDependencies": {
+		"react": ">=17.0.1"
+	}
+}

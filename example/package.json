@@ -1,0 +1,28 @@
+{
+	"name": "component-trial-react-app",
+	"homepage": ".",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node ../node_modules/react-scripts/bin/react-scripts.js start"
+	},
+	"dependencies": {
+		"example-component": "file:..",
+		"react": "file:../node_modules/react",
+		"react-dom": "file:../node_modules/react-dom",
+		"react-router-dom": "^6.16.0",
+		"react-scripts": "file:../node_modules/react-scripts"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

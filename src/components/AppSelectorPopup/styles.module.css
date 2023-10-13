@@ -1,0 +1,105 @@
+.noScroll {
+   overflow: hidden;
+}
+
+.appSelectorBackground {
+   background-color: rgba(34, 41, 47, 0.4);
+   position: fixed;
+   z-index: 9999999;
+   inset: 0;
+   min-height: 100vh;
+   width: 100vw;
+   transition: opacity 0.2s ease-in;
+   opacity: 0;
+}
+
+.appSelectorBackground.showPopup {
+   opacity: 1;
+   display: block;
+}
+
+.appSelectorBackground.hidePopup {
+   pointer-events: none;
+   touch-action: none;
+}
+
+.appSelectorPopup {
+   background-color: rgba(249, 249, 249, 1);
+   position: fixed;
+   z-index: 99999999;
+   bottom: 0;
+   left: 4px;
+   right: 4px;
+   width: calc(100vw - 8px);
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+   padding: 24px;
+   overflow: hidden;
+   transition: transform 0.4s cubic-bezier(0.4, 0.24, 0.3, 1);
+   transform: translateY(calc(100% + 10px));
+}
+
+.appSelectorPopup.showPopup {
+   transform: translateY(0);
+   display: block;
+}
+
+.appSelectorPopup.hidePopup {
+   pointer-events: none;
+   touch-action: none;
+}
+
+.appSelectorPopup .title {
+   font-size: 18px;
+   font-weight: 500;
+   text-align: center;
+   padding-bottom: 6px;
+}
+
+.appSelectorPopup .itemRow {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 8px;
+   padding: 6px 0;
+}
+
+.appSelectorPopup .itemRow .logoName {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+
+.appSelectorPopup .itemRow .logoName .logo {
+   width: 52px;
+   height: 52px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid #e0e0e0;
+   border-radius: 8px;
+   padding: 4px;
+}
+
+.appSelectorPopup .itemRow .logoName .logo img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+.appSelectorPopup .itemRow .logoName .name {
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.appSelectorPopup .itemRow .button {
+   all: unset;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   min-width: 96px;
+   height: 40px;
+   font-size: 14px;
+   font-weight: 500;
+   border-radius: 20px;
+}
