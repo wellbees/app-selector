@@ -12,7 +12,7 @@ Options:
 
 ## Example Usage
 
-[Show Demo in CodeSandBox](https://codesandbox.io/s/app-selector-dpldf6)
+[Show Demo in CodeSandBox](https://codesandbox.io/s/app-selector-dpldf6?resolutionWidth=320&resolutionHeight=675)
 
 ## Screenshots
 
