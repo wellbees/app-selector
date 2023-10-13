@@ -14,7 +14,7 @@ Options:
 
 [Show Demo in CodeSandBox](https://codesandbox.io/s/app-selector-dpldf6)
 
-## Ekran Görüntüleri
+## Screenshots
 
 ![IOS App Screenshot](/images/safari-example.gif)
 ![Android App Screenshot](/images/chrome-example.gif)
